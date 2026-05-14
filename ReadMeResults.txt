@@ -47,21 +47,21 @@ Speed:              50.33 tokens/s
 
 
 KD + SFT TinyMistral-248M:-
-Perplexity:         38.0067
-KL Divergence:      2.1496
+Perplexity:         40.3721
+KL Divergence:      2.2088
 --- Structural Metrics ---
-ROUGE-1:            0.1770
-ROUGE-2:            0.0642
-ROUGE-L:            0.1435
-BLEU:               0.0088
-METEOR:             0.1293
+ROUGE-1:            0.1886
+ROUGE-2:            0.0649
+ROUGE-L:            0.1578
+BLEU:               0.0127
+METEOR:             0.1427
 Accuracy (EM):      0.0000
 --- Semantic Metrics ---
-Feature Sim (F1):   0.8280 (BERTScore)
+Feature Sim (F1):   0.8300 (BERTScore)
 --- Performance Metrics ---
 Compression Ratio:  15.13x
-Avg Latency:        0.88 s/prompt
-Speed:              48.62 tokens/s
+Avg Latency:        0.90 s/prompt
+Speed:              50.68 tokens/s
 
 
 KD + SFT (Soft) TinyMistral-248M:-
