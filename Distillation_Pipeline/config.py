@@ -1,4 +1,5 @@
 TEACHER_MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
+STUDENT_MODEL_B = "Locutusque/TinyMistral-248M"
 STUDENT_MODEL_S = "../Baseline/outputs/tinymistral-sft-merged-soft"
 STUDENT_MODEL = "../Baseline/outputs/tinymistral-sft-merged"
 DATASET_NAME = "databricks/databricks-dolly-15k"
@@ -13,3 +14,4 @@ ALPHA = 0.9
 
 DISTILLED_OUTPUT_DIR = "./outputs/logit-distilled-tinymistral"
 DISTILLED_OUTPUT_DIR_S = "./outputs/logit-distilled-tinymistral-Soft"
+DISTILLED_OUTPUT_DIR_B = "./outputs/logit-distilled-tinymistral-Base"
